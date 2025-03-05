@@ -1,0 +1,98 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header Styling */
+.site-header {
+    background-color: #3f51b5;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.site-title {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* Container to center content */
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    margin-top: 20px; /* Adds spacing from the header */
+}
+
+/* Joke text styling */
+#joke {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Button Styling */
+button {
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #3f51b5;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Flexbox to align content vertically and horizontally */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Footer Styling */
+.site-footer {
+    background-color: #3f51b5;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #fff;
+}
